@@ -1,0 +1,23 @@
+{
+  "name": "vm_js_practice",
+  "version": "1.0.0",
+  "description": "js, learnJs, training",
+  "main": "index.js",
+  "scripts": {
+    "test": "test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/VitAn1999/VM_JS_Practice.git"
+  },
+  "keywords": [
+    "js",
+    "modal"
+  ],
+  "author": "Vitali Roshchupkin <elpistolero1999@gmail.com>",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/VitAn1999/VM_JS_Practice/issues"
+  },
+  "homepage": "https://github.com/VitAn1999/VM_JS_Practice#readme"
+}
