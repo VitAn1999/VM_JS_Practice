@@ -19,5 +19,15 @@
   "bugs": {
     "url": "https://github.com/VitAn1999/VM_JS_Practice/issues"
   },
-  "homepage": "https://github.com/VitAn1999/VM_JS_Practice#readme"
+  "homepage": "https://github.com/VitAn1999/VM_JS_Practice#readme",
+  "dependencies": {},
+  "browserslist": [
+    "last 5 version",
+    "> 5%",
+    "IE 10"
+  ],
+  "devDependencies": {
+    "autoprefixer": "^10.1.0",
+    "postcss": "^8.2.1"
+  }
 }
