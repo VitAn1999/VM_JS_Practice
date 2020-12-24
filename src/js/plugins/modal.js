@@ -27,14 +27,19 @@ function _createModal(щзешщты) {
 
 $.modal = function (options) {
   const $modal = _createModal(options);
+  let closing = false;
   return {
     open() {
-      $modal.classList.add('open');
+      closing && $modal.classList.add('open');
     },
     close() {
+      closing = true;
       $modal.classList.remove('open');
       $modal.classList.add('hidden');
-      setTimeout($modal.classList.remove('hidden'), 300);
+      setTimeout(() => {
+        $modal.classList.remove('hidden');
+        closing = false;
+      }, 300);
     },
     destroy() {},
   };

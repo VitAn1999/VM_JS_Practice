@@ -4,6 +4,12 @@
   z-index: 100;
 }
 
+.v-modal.hidden .v-modal__overlay,
+.v-modal.hidden .v-modal__window {
+  opacity: 1;
+  z-index: 100;
+}
+
 .v-modal.open .v-modal__window {
   transform: translateY(100px);
 }
@@ -13,11 +19,11 @@
 }
 
 .v-modal.hidden .v-modal__window {
-  transition: transform 0.2s ease-in;
+  transform: translateY(-200px);
 }
 
 .v-modal.hidden .v-modal__overlay {
-  transition: background-color 0.2s ease-in;
+  background-color: rgba(155, 155, 155, 0);
 }
 
 .v-modal__window,
